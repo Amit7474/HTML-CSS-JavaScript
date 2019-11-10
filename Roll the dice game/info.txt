@@ -1,1 +1,3 @@
-A web page game that performs DOM manipulations with javaScript. The goal is to achieve 100 points by rolling a dice. If the player gets 1 point the turn pass to the second player.
+A web page game that performs DOM manipulations with javaScript.
+The goal is to achieve 100 points by rolling a dice.
+If the player gets 1 point the turn pass to the second player.
