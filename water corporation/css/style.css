@@ -1,0 +1,415 @@
+/*-------------
+Basic configuration
+-------------*/
+
+html{
+    background-color: white;
+	scroll-behavior: smooth;
+}
+
+.row{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+    color: white;
+    font-weight: 500;
+	direction: rtl;
+}
+section{
+	padding: 50px 0;
+	display: block;
+	
+}
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    
+}
+/*-------------
+Header
+-------------*/
+header{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+	-webkit-animation: animate 20s ease-in-out infinite;
+	animation: animate 20s ease-in-out infinite;
+}
+
+
+@-webkit-keyframes animate{
+	0%,100%{
+		background-image: url(images/3.jpg);
+	}
+	35%{
+		background-image: url(images/2.jpg);
+	}
+	70%{
+		background-image: url(images/5.jpg);
+	}
+}
+
+
+@keyframes animate{
+	0%,100%{
+		background-image: url(images/3.jpg);
+	}
+	35%{
+		background-image: url(images/2.jpg);
+	}
+	70%{
+		background-image: url(images/5.jpg);
+	}
+}
+
+/*-------------
+Header - Headline
+-------------*/
+.headline{
+    position: relative;
+	top: 10px;
+	right: 20%;
+    background-color: rgba(84, 191, 248, 0.75);
+    border-radius: 50px;
+	width: 60%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*-------------
+Header - logo
+-------------*/
+.logoimg{
+    height: 15%;
+    position: sticky;
+	right: 90%;
+	top: 2%;
+	margin-left: 1%;
+    border-radius: 30%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*-------------
+Top navigation
+-------------*/
+.main-nav{
+	position: absolute;
+	right: 6%;
+    list-style: none;
+	text-align: center;
+}
+.main-nav li{
+    display: inline-block;
+	text-align: center;
+    background-color: rgba(84, 191, 248, 0.75);
+    border-radius: 7px;
+    margin: 10px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+ 
+}
+.main-nav li:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.icons{
+	font-size: 250%;
+	padding: 30px;
+}
+
+
+/*---------
+/* TEXT /*
+/*---------*/
+
+h1, h2, h3, h4, p{
+    text-align: center;
+    }
+p, h3{
+	background-color: rgba(84, 191, 248, 0.83);
+	line-height: 180%;
+}
+
+h2, p{
+    font-size: 23px;
+    font-weight: 200;
+}
+h1{
+	font-weight: 500;
+	font-size: 300px;
+}
+
+h3{
+	font-size: 40px;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+	width: 100%;
+    letter-spacing: 1px;
+    border-radius: 50px;
+}
+h4{
+	font-size: 25px;
+	font-weight: 400;
+	word-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+button{
+		background-color: rgba(84, 191, 248, 0.83);
+}
+
+.headline h1{
+	font-size: 60px;
+	padding-top: 35px;
+}
+
+.rates p{
+	color: black;
+	text-align: right;
+	
+}
+.address p{
+	line-height: 120%;
+	color: black;
+	font-size: 23px;
+	text-align: right;
+}
+/*-------------
+Map section
+-------------*/
+
+.map-and-address{
+	background-color: #f4f4f4;
+}
+
+/*-------------
+Map
+-------------*/
+
+#map{
+	position: relative;
+	left: 20%;
+	border-radius: 7px;
+	height: 400px;
+	margin: 7%;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*-------------
+Address
+-------------*/
+
+.address p{
+	position: relative;
+	color: white;
+	line-height: 180%;
+    border-radius: 7px;
+	padding: 10px;
+	left:17%;
+	margin: 7%;
+	float: left;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/*-------------
+Open note section
+-------------*/
+
+.send-note {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 177, 255, 0)), to(white)),url(images/drop.jpg);
+	background-image: -webkit-linear-gradient(rgba(0, 177, 255, 0), white),url(images/drop.jpg);
+	background-image: -o-linear-gradient(rgba(0, 177, 255, 0), white),url(images/drop.jpg);
+	background-image: linear-gradient(rgba(0, 177, 255, 0), white),url(images/drop.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.open-note{
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+	border-radius: 7px;
+}
+
+input,
+select,
+textarea
+{
+	font-size: 10px;
+	font-weight: 300;
+	color: #393939;
+	width: 100%;
+	padding: 5px;
+	border-radius: 7px;
+	text-align: right;
+}
+
+textarea {
+	resize: none;
+	height: 100px;
+}
+
+.open-note button{
+	font-size: 30px;
+	right: 40%;
+	position: relative;
+	border-radius: 7px;
+	border: none;
+	text-align: center;
+	margin: 20px;
+	padding: 5px 40px;
+	font-weight: 300;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.note-text{
+	text-align: center;
+	background-color: rgba(84, 191, 248, 0.83);
+	border-radius: 7px;
+}
+
+.form-messages{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	color: grey;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+
+
+/*-------------
+rates section
+-------------*/
+.rates{
+	background-color: #f4f4f4;
+}
+
+table{
+	margin: 20px auto;
+	border: 1px solid black;
+	text-align: right;
+	width: 100%;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+table h2{
+	color: black;
+	font-size: 140%;
+}
+th, td {
+  padding: 8px;
+}
+
+.rates p{
+    border-radius: 7px;
+	padding: 10px;
+	margin: 2%;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: white;
+	line-height: 130%
+}
+
+
+/*-------------
+water quality section
+-------------*/
+.water-quality{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(white)),url(images/1.jpg);
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), white),url(images/1.jpg);
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0), white),url(images/1.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0), white),url(images/1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+
+.water-quality p{
+	text-align: right;
+    border-radius: 7px;
+	padding: 10px;
+	margin: 2%;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: white;
+	line-height: 130%
+}
+
+.water-quality a:visited,
+.water-quality a:link{
+	font-weight: 400;
+}
+
+/*-------------
+payment section
+-------------*/
+.payment{
+	background-color: #f4f4f4;
+	position: relative;
+}
+
+
+.get-user-id{
+	margin: 20px auto;
+	width: 30%;
+}
+.get-user-id h2{
+	color: #ffffff
+}
+.payment button{
+	font-size: 23px;
+    font-weight: 200;
+	border-style: hidden;
+    border-radius: 7px;
+	width: 12%;
+	padding: 10px;
+	margin: 20px 45%;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*-------------
+swal modifications
+-------------*/
+.swal-text {
+  color: #000000;
+}
+

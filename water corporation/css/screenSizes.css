@@ -1,0 +1,116 @@
+
+/*Small phones: 1024-1200px*/
+@media only screen and (max-width: 1200px){
+	
+}
+
+/*768-1023px*/
+@media only screen and (max-width: 1023px){
+	
+	.headline{
+		right: 15%;
+		width: 70%;
+
+	}
+
+	.headline h1{
+		font-size: 50px;
+		padding-top: 5%;
+	}
+
+	.main-nav{
+		margin-top: 2%;
+		right: auto;
+		width: 100%;
+	}
+
+
+	.main-nav li{
+		margin: 5px;
+		padding: 5px 5px;
+	}
+
+	.icons{
+		font-size: 150%;
+		padding: 0px;
+	}
+
+	.logoimg{
+		height: 15%;
+		position: sticky;
+		right: 90%;
+		top: 2%;
+	}
+	}
+
+	/*481-767px*/
+	@media only screen and (max-width: 767px){
+
+	.headline h1{
+		font-size: 40px;
+		padding-top: 1%;
+	}
+
+	h4{
+		font-size: 20px;
+		word-spacing: 2px;
+		padding-bottom: 10px;
+	}	
+}
+
+/*Small phones: 0-480px*/
+@media only screen and (max-width: 480px){
+	
+	section{padding: 20px 0;}	
+
+	.headline{
+		width: 80%;
+		right: 10%;
+		}
+	.headline h1{font-size: 30px;}
+
+	.logoimg{height: 10%;}
+
+	h3{font-size: 30px}
+
+	h4{
+		font-size: 20px;
+		word-spacing: 2px;
+		padding-bottom: 10px;
+	}
+	p{line-height: 100%;}
+	
+	.main-nav li a:link,
+	.main-nav li a:visited{font-size: 13px;}
+
+	.icons{font-size: 220%;}
+
+	#map{
+		left: 0%;
+		height: 300px;
+		margin: 3%;
+	}
+
+	.address p{
+		left:10%;
+		margin: 3%;
+		line-height: 100%;
+	}
+
+	.open-note button{
+		right: 33%;
+		font-size: 20px;
+		position: sticky;
+	}
+	
+	.payment form{width: 80%;}
+	
+	.payment button{
+		position: relative;
+		font-size: 20px;
+		width: 80%;
+		right: 7%;
+		padding: 10px;
+		margin: 10px;
+}
+}
