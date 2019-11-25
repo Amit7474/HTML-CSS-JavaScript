@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="he">
     <head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
     	<meta name="viewport" content="width=device-width"/>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/Grid.css">
-		<link rel="stylesheet" type="text/css" href="css/effects.js">
-		<link rel="stylesheet" type="text/css" href="css/screenSizes.css">
+	<link rel="stylesheet" type="text/css" href="css/effects.js">
+	<link rel="stylesheet" type="text/css" href="css/screenSizes.css">
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap" rel="stylesheet">
 		<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
@@ -29,20 +29,20 @@
 				<div class="headline">
 					<h1>ברוכים הבאים לעלי&#45;באר</h1>
             		<h4>אגודת המים השיתופית ביבנאל</h4>
-					<nav>
-						<div class="row">
-							<ul class="main-nav">
-								<li><a href="#contact">צור קשר<br><i class="icon ion-ios-call icons"></i></a></li>
-								<li><a href="#send-note">פתיחת פנייה<br><i class="icon ion-ios-mail icons"></i></a></li>
-								<li><a href="#rates">תעריפים<br><i class="icon ion-ios-trending-up icons"></i></a></li>
-								<li><a href="#water-quality">איכות המים<br><i class="icon ion-ios-flask icons"></i></a></li>
-								<li><a href="#payment">תשלום חשבונות<br><i class="icon ion-ios-card icons"></i></a></li>
-							</ul> 
-						</div>
-					</nav>
-				</div>
+				<nav>
+					<div class="row">
+						<ul class="main-nav">
+							<li><a href="#contact">צור קשר<br><i class="icon ion-ios-call icons"></i></a></li>
+							<li><a href="#send-note">פתיחת פנייה<br><i class="icon ion-ios-mail icons"></i></a></li>
+							<li><a href="#rates">תעריפים<br><i class="icon ion-ios-trending-up icons"></i></a></li>
+							<li><a href="#water-quality">איכות המים<br><i class="icon ion-ios-flask icons"></i></a></li>
+							<li><a href="#payment">תשלום חשבונות<br><i class="icon ion-ios-card icons"></i></a></li>
+						</ul> 
+					</div>
+				</nav>
 			</div>
-		</header>
+		</div>
+	</header>
 		
 		
 		<section class="map-and-address" id="contact">
@@ -50,30 +50,30 @@
                 <h3>צור קשר</h3>        
             </div>
             <div class="row">
-				<div class="col span-1-of-2">
-					<div id="map"></div>
-					 <script>
-						// Initialize and add the map
-						function initMap() {
-						  // The location of Aly-baer
-						  var Alybaer = {lat: 32.706848, lng: 35.503366};
-						  // The map, centered at Aly-baer
-						  var map = new google.maps.Map(
-							  document.getElementById('map'), {zoom: 17, center: Alybaer});
-						  // The marker, positioned at Aly-baer
-						  var marker = new google.maps.Marker({position: Alybaer, map: map});
-						}
-							</script>
-							<script async defer
-							src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcyvbuvcmFKG6U4lfT_I6EAFeI7LVd2OM&callback=initMap">
-							</script>
-				</div>
-				<div class="col span-1-of-2">
-					 <div class="address">
-						 <p>דרך המושבות ליד המועצה<br>יבנאל<br>תא דואר 340<br>טלפון 04-6708333</p>
-					</div>	
-				</div>
-			</div>
+		<div class="col span-1-of-2">
+			<div id="map"></div>
+			 <script>
+				// Initialize and add the map
+				function initMap() {
+					 // The location of Aly-baer
+					 var Alybaer = {lat: 32.706848, lng: 35.503366};
+					 // The map, centered at Aly-baer
+				  var map = new google.maps.Map(
+					  document.getElementById('map'), {zoom: 17, center: Alybaer});
+				  // The marker, positioned at Aly-baer
+				  var marker = new google.maps.Marker({position: Alybaer, map: map});
+				}
+					</script>
+					<script async defer
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcyvbuvcmFKG6U4lfT_I6EAFeI7LVd2OM&callback=initMap">
+					</script>
+		</div>
+	<div class="col span-1-of-2">
+	 <div class="address">
+		 <p>דרך המושבות ליד המועצה<br>יבנאל<br>תא דואר 340<br>טלפון 04-6708333</p>
+			</div>	
+		</div>
+	</div>
         </section>
 
 		
